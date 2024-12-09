@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.headSection{
+    height: 10vh;
+    background-color: #1D1D1D;
+    color: #fff;
+}
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menuList{
+    display: flex;
+}

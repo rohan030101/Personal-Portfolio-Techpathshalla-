@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+  /* overflow: hidden         ; */
 }
+
+/*  NavBar Stand here*/
 .headSection {
   height: 10vh;
   background-color: #1d1d1d;
   color: #fff;
-  /* margin-right: 20px;
-    margin-left: 20px; */
 }
 .navBar {
   display: flex;
@@ -26,13 +27,115 @@
 .menuList li {
   margin-right: 3rem;
 }
-.navSearch{
-    background-color: #F5F5F533;
-    padding: 8px;
-    border-radius: 8px;
+.navSearch {
+  background-color: #f5f5f533;
+  padding: 8px;
+  border-radius: 8px;
 }
-.navBar input{
-    background-color: transparent;
-    border: none;
-    margin-left: 5px;
+.navBar input {
+  background-color: transparent;
+  border: none;
+  margin-left: 5px;
+}
+/*  NavBar ends here*/
+
+/* Video Section Starts here */
+.waterMark {
+  background-color: #fff0bb;
+  width: 35%;
+  margin: auto;
+  text-align: center;
+  padding: 5px 50px 5px 50px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.waterMark a {
+  cursor: pointer;
+}
+.techLogo {
+  align-self: center;
+  width: 23vh;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.video {
+  width: 100%;
+  height: 80vh;
+}
+/* Video Section Ends here */
+
+/* Hero Ends here */
+#aboutMe {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+.aboutDescription {
+  width: 40%;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.aboutDescription h1,
+h3 {
+  color: #1d1d1d;
+  padding: 0 0 9px 0;
+}
+.aboutDescription p {
+  color: #555555;
+  padding-bottom: 12px;
+}
+
+.aboutDescription button:first-child {
+  background-color: #0948b4;
+  color: white;
+  border: 2px solid #0948b4;
+  border-radius: 4px;
+  padding: 10px;
+}
+.aboutDescription button:last-child {
+  background-color: white;
+  color: black;
+  border: 2px solid #0948b4;
+  border-radius: 4px;
+  padding: 10px;
+}
+.profilePhoto {
+  position: absolute;
+  top: 372px;
+  right: 120px;
+}
+
+/* Hero Section Ends here */
+
+.devSection{
+  width: 86%;
+  display: flex;
+  margin: 0 auto 10px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  box-shadow: 0px 4px 40px 0px #0000001A;
+  border-radius: 10px;
+  height: 20vh;
+}
+.devSection h2{
+  font-size:xx-large;
+  border-bottom: 2px solid black;
+}
+.devSection ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+
 }

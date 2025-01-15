@@ -7,6 +7,18 @@
   /* overflow: hidden         ; */
 }
 
+body {
+  background: #f5f5f5;
+}
+/* golbal class */
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 30px 100px;
+}
+
+/* global class ends  */
 /*  NavBar Stand here*/
 .headSection {
   height: 10vh;
@@ -70,7 +82,7 @@
 }
 /* Video Section Ends here */
 
-/* Hero Ends here */
+/* About Ends here */
 #aboutMe {
   display: flex;
   align-items: center;
@@ -79,9 +91,13 @@
   padding: 20px;
 }
 .aboutDescription {
-  width: 40%;
+  width: 100%;
   padding-left: 80px;
   padding-top: 80px;
+  margin: 80px 0;
+}
+h1 {
+  font-weight: bolder;
 }
 .aboutDescription h1,
 h3 {
@@ -89,6 +105,7 @@ h3 {
   padding: 0 0 9px 0;
 }
 .aboutDescription p {
+  width: 80%;
   color: #555555;
   padding-bottom: 12px;
 }
@@ -108,34 +125,163 @@ h3 {
   padding: 10px;
 }
 .profilePhoto {
-  position: absolute;
-  top: 372px;
-  right: 120px;
+  height: max-content;
+  /* position: absolute;
+  top: 412px;
+  right: 120px; */
 }
 
-/* Hero Section Ends here */
+/* About Section Ends here */
 
-.devSection{
-  width: 86%;
+.devSection {
   display: flex;
-  margin: 0 auto 10px auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:white;
-  box-shadow: 0px 4px 40px 0px #0000001A;
-  border-radius: 10px;
-  height: 20vh;
+  width: 86%;
+  margin: 0 auto 10px auto;
+  padding: 24px;
+  background-color: #fdfdfd;
+  box-shadow: 0px 4px 40px 0px #0000001a;
+  border-radius: 16px;
+  height: 2 0vh;
 }
-.devSection h2{
-  font-size:xx-large;
+.devSection h2 {
+  font-size: xx-large;
   border-bottom: 2px solid black;
 }
-.devSection ul{
+.devSection ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
   padding: 20px;
   width: 100%;
-
 }
+
+/* Expertise Section */
+.expertiseSection {
+  /* width: 100%; */
+}
+
+.cardWithImage {
+  display: flex;
+  background-color: #fdfdfd;
+  box-shadow: 0px 8px 40px 0px #0000001a;
+  padding: 20px;
+  height: 35vh;
+  width: 86%;
+  border-radius: 16px;
+  margin: auto;
+}
+.headingAndDescription {
+  padding-left: 20px;
+}
+
+.headingAndDescription p {
+  width: 70%;
+  text-align: justify;
+}
+
+.headingAndDescription h2 {
+  padding: 5px 0;
+}
+/* Expertise Section */
+
+/* skill Section */
+.skillImages {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.skillImages::-webkit-scrollbar {
+  display: none;
+}
+.imageWithSubHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.imageWithSubHeading span {
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+/* skill Section */
+
+/* soft skill section */
+
+.softSkill {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #fdfdfd;
+  box-shadow: 0px 8px 40px 0px #0000001a;
+  padding: 20px;
+  width: 86%;
+  height: 30%;
+  border-radius: 16px;
+  margin: auto;
+}
+.subheading {
+  font-size: 32px;
+}
+/* soft skill section */
+
+/* Project Section */
+.card {
+  width: 95%;
+  /* border: 3px solid black; */
+  margin: auto;
+  display: flex;
+  overflow-x: scroll;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fdfdfd;
+  box-shadow: 0px 8px 40px 0px #0000001a;
+  border-radius: 16px;
+  /* height: 55vh; */
+  /* width: 80%; */
+  padding: 16px;
+  margin: 40px 20px;
+}
+
+.projectCard button {
+  background-color: #0948b4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 16px;
+  border: none;
+}
+
+.projectCard h3,
+p {
+  margin-bottom: 10px;
+}
+
+.backwareFordwaredButton {
+  width: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.circleButton {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  border: 1px solid black;
+}
+/* Project section */

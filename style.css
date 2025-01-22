@@ -283,3 +283,105 @@ p {
   border: 1px solid black;
 }
 /* Project section */
+
+/* Experience Section */
+.wrapper {
+  display: flex;
+  width: 94%;
+  margin: auto;
+}
+.experienceCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 5px;
+  background-color: white;
+  margin: 0 5px;
+  border-radius: 16px;
+}
+.leftPart {
+  margin: 15px;
+  flex: 1;
+}
+.leftPart img {
+  width: 30vh;
+  min-height: 20vh;
+}
+
+.blueButton {
+  background-color: #0948b4;
+  color: white;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px 24px;
+  margin-right: 10px;
+}
+.rightPart {
+  margin: 15px;
+  flex: 1;
+}
+.rightPart h4 {
+  margin: 0;
+  padding: 0;
+}
+.rightPart span {
+  display: block;
+  font-weight: 600;
+}
+/* Experience Section ends here */
+
+/* Qualification Section Starts here */
+.qualificationSection {
+  margin-left: 30px;
+}
+.warp {
+  display: flex;
+  width: 94%;
+  margin: auto;
+}
+.timeline {
+  /* margin-left: 40px; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.timeline ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120%;
+  font-size: 22px;
+}
+
+.timeline ul:before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  height: 69%;
+  border-left: 6px solid black;
+  left: 113px;
+}
+.timeline li {
+  list-style-type: none;
+  text-align: left;
+}
+.timeline li:before{
+  position: absolute;
+  content: "";
+  background-color: black;
+  /* font-size: 30px; */
+  width: 20px;
+  height: 20px;
+  left: 105px;
+  /* top: 45px; */
+  margin-top: 15px;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+.profile {
+  flex: 1;
+}
+/* Qualification Section ends here */

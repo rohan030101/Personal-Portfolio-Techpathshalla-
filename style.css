@@ -109,6 +109,15 @@ h3 {
   color: #555555;
 }
 
+.btnBlue{
+  background-color: #0948b4;
+  color: white;
+  border: 2px solid #0948b4;
+  border-radius: 4px;
+  padding: 10px;
+  text-decoration: none;
+}
+
 .aboutDescription button:first-child {
   background-color: #0948b4;
   color: white;
@@ -357,6 +366,31 @@ p {
   justify-content: space-evenly;
   height: 100%;
   font-size: 22px;
+}
+
+
+.timeline li{
+  position: relative;
+  margin-left: 20px;
+}
+.timeline li:before{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+  top: 30px;
+  left: -30px;
+}
+
+.line{
+  position: absolute;
+  width: 5px;
+  height:350px;
+  top: 40px;
+  left: -26px;
+  background-color: black;
 }
 .profile {
   width: 80%;
